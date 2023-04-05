@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bree Serif', serif;
+}
+.pie{
+    background: #3a3838;
+}
+img{
+    width: 125px;
+}
+.txt_logo{
+    font-size: 28px;
+    color:white;
+}
+
+.headerPie{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 10px 25px;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    gap: 15px;
+}
+span{
+    font-size: 30px;
+}
+.fbook{
+    background: #3b5998;
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+}
+.instagram{
+    background: #f034ce;
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+}
+
+.twitter{
+    background: #00acee;
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+}
+
+.ytube{
+    background: red;
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+}
+
+.wtp{
+    background: rgb(2, 172, 30);
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+}
+.section{
+    display:flex;
+    justify-content: space-evenly;
+    gap:40px;
+    padding-bottom: 7px;
+}
+.section div{
+    display:flex;
+    flex-direction: column;
+}
+div h2{
+    color:white;
+    padding:10px 0px;
+}
+div p{
+    color:white;
+}
+a{
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+}
+#form_suscripcion{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#correo{
+    background: gainsboro;
+    border: solid 3px white;
+    border-style: inset;
+    padding: 7px;
+}
+
+#boton_contacto{
+    display: inline-block;
+    padding: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #ddd6d6;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+}
+
+#boton_contacto:hover {background-color: #ec7373dc
+}
+
+#boton_contacto:active {
+    background-color: #a50606;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    color:white;
+}
+
+.derechos{
+    display:flex;
+    justify-content:space-between;
+    padding: 30px;
+    background:#282727;
+    color:white;
+}
