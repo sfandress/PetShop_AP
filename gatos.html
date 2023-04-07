@@ -6,10 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilofooter.css">
     <link rel="shortcut icon" href="img/huellitas.jpg">
+    <script src="https://kit.fontawesome.com/22c71c95d2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <title>PetShop Gatos</title>
 </head>
 <body>
-    
+	<header>
+        <h1>
+            ACA VA EL "HEADER"
+        </h1>
+		</header>
+	
+	<main>
+        <h2> ACA VA EL CONTENIDO</h2>
+		</main>
+	
+	<footer class="pie">
+        <div class="headerPie">
+            <div class="logo">
+                <img src="img/huellitasFT.png" alt="logo">
+                <p class="txt_logo">Huellitas PetShop</p>
+            </div>
+            <div class="redes">
+                <span class="fbook"><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></span>
+                <span class="instagram"><a href="https://www.instagram.com" target="_bank"><i class="fa-brands fa-instagram"></i></a></span>
+                <span class="twitter"><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></span>
+                <span class=" ytube"><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></span>
+                <span class="wtp"><a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></span>
+            </div>
+        </div>
+        <hr>
+        <div class="section">
+            <div>
+                <h2>Contacto</h2>
+                <p>Atencion Telefonica:</p>
+                <p>0810-222-2448</p>
+                <br>
+                <p>Atencion Whatsapp:</p>
+                <p>+54-91167086622</p>
+                <br>
+                <p>Lunes a Sabados de 9 a 21hs</p>
+                <p>Domingos de 9:30 a 13hs</p>
+                
+            </div>
+            <div>
+                <h2>Categorias</h2>
+                <a href="#">Perros</a>
+                <a href="#">Gatos</a>
+                <a href="#">Otras mascotas</a>
+                
+            </div>
+            <div>
+                <h2>Servicios</h2>
+                <a href="#">Peluqueria</a>
+                <a href="#">Veterinaria</a>
+                <a href="#">Microchips</a>
+                <a href="#">Adopciones</a>
+            </div>
+            <div>
+                <h2>Medios de pago</h2>
+                <a href="#">Debito</a>
+                <a href="#">Credito</a>
+                <a href="#">Transferencia bancaria</a>
+                <a href="#">MercadoPago</a>
+            </div>
+            <div>
+                <h2>Suscríbete </h2>
+                <p>Recibi nuestras ofertas y novedades</p>
+                <br>
+                <form action="" id="form_suscripcion">
+                    <input type="text" id="correo" placeholder="Escribe tu Email">
+                    <input type="button" class="btn btn-success" id="boton_contacto" value="Enviar" onclick="validarCorreo(form.correo.value)"/>
+                  </form>
+            </div>
+        </div>
+        <div class="derechos">
+            <p> Copyright@2023 PetShop Huellitas - All right reserved</p>
+            <p>Developed by TEAM ELEVEN </p>
+            <p>Privacy Policy - <a href="#" target="_blank">Terms and conditions</a></p>
+        </div>
+    </footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script src="js/validaciones.js" type="text/javascript"></script>
 </html>
