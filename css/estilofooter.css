@@ -131,3 +131,8 @@ a{
     background:#282727;
     color:white;
 }
+gmaps{
+    width="600";
+    height="450";
+    border:0;
+}
