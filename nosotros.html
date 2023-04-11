@@ -5,28 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilosmain.css">
     <link rel="stylesheet" href="css/estilofooter.css">
     <link rel="shortcut icon" href="img/huellitas.jpg">
     <script src="https://kit.fontawesome.com/22c71c95d2.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-    <title>Nosotros</title>
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/carrousel.css">
+<title>Nosotros</title>
 </head>
 <body>
-	<header>
-        <h1>
-            ACA VA EL "HEADER"
-        </h1>
-		</header>
+	<header class="header_style">
+        <section>
+          <h1>Pet-Shop</h1>
+          <div class="conte">
+            <p></p>
+            <a href="registro.html">Crear Cuenta</a>
+            <a href="#">Ingresar</a>
+          </div>
+        </section>
+      
+    </header>
 	
 	<main>
-        <h2> Formulario</h2>
-        <div class="container">
-
+    <div class="carrousel">
+        <div class="conteCarrousel">
+            <div class="itemCarrousel" id="itemCarrousel-1">
+                <div class="itemCarrouselTarjeta">
+                    <img id="imgCarrusel" src="img/perros.jpg" alt="perritos">
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-3">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-2">
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-2">
+                <div class="itemCarrouselTarjeta">
+                    <img src="img/gato.jpg" alt="gatitos">
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-1">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-3">
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-3">
+                <div class="itemCarrouselTarjeta">
+                    <img src="img/peces.jpg" alt="peceras_terrarios">
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-2">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-1">
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-		</main>
+        <div class="conteCarrouselController">
+            <a href="#itemCarrousel-1">•</a>
+            <a href="#itemCarrousel-2">•</a>
+            <a href="#itemCarrousel-3">•</a>
+        </div>
+    </div>
+    <section>
+        <h1>Sobre Nosotros</h1>
+        <div id="nosotros">
+             <div>
+                <h2>Nuestra historia</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id est ducimus fugit reprehenderit quae ipsam sed nemo sequi possimus ex, consequuntur quod laudantium sapiente minima, qui voluptates. Dolore, quis et?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quam facilis eaque ea. Dolor, quae vel in optio at beatae provident ad praesentium non veritatis excepturi perspiciatis dolore quam! Nostrum.</p>
+            </div>
+            <div>
+                <h2>Nuestros Objetivos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quod asperiores eaque quae nesciunt sapiente eos dicta sunt fugit quam, officia nostrum itaque quasi, repellat porro possimus quidem repellendus ea.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quam facilis eaque ea. Dolor, quae vel in optio at beatae provident ad praesentium non veritatis excepturi perspiciatis dolore quam! Nostrum.</p>
+            </div>
+             <div>
+             <h2>Nuestro Personal</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deleniti, molestiae beatae voluptates expedita, similique nulla vitae suscipit nemo voluptas illum? Voluptas voluptate veniam error! Tenetur nisi sit hic. Perferendis?</p>
+             <br>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quam facilis eaque ea. Dolor, quae vel in optio at beatae provident ad praesentium non veritatis excepturi perspiciatis dolore quam! Nostrum.</p>
+            </div>
+    </div>
+    </section>
+	</main>
+	
 	
 	<footer class="pie">
         <div class="headerPie">

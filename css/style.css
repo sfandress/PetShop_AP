@@ -11,7 +11,7 @@
   
   .header_style {
     background: url('../img/fondo.jpg');
-    height: 1000px;
+    height: 1000px 500px;
     background-size: cover;
     background-repeat: no-repeat;
   }
