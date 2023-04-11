@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/carrousel.css">
     <link rel="stylesheet" href="css/estiloform.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Registro</title>
@@ -24,12 +26,68 @@
         <h1>Pet-Shop</h1>
         <div class="conte">
           <p></p>
+          <a href="index.html">Inicio</a>
           <a href="registro.html">Crear Cuenta</a>
           <a href="#">Ingresar</a>
+          <a href="nosotros.html">Sobre Nosotros</a>
         </div>
       </section>
+    
     </header>
-    <main>
+    <main >
+      <div class="carrousel">
+        <div class="conteCarrousel">
+            <div class="itemCarrousel" id="itemCarrousel-1">
+                <div class="itemCarrouselTarjeta">
+                    <img id="imgCarrusel" src="img/perros.jpg" alt="perritos">
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-3">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-2">
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-2">
+                <div class="itemCarrouselTarjeta">
+                    <img src="img/gato.jpg" alt="gatitos">
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-1">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-3">
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-3">
+                <div class="itemCarrouselTarjeta">
+                    <img src="img/peces.jpg" alt="peceras_terrarios">
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-2">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-1">
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="conteCarrouselController">
+           
+            <a href="#itemCarrousel-1"><i class="fa-solid fa-dog"></i></a>
+                
+                <a href="#itemCarrousel-2">
+                    <i class="fa-sharp fa-solid fa-cat"></i> </a>
+                
+                <a href="#itemCarrousel-3"><i class="fa-sharp fa-solid fa-fish-fins"></i></a>
+            </div>
+    </div>  
+    
     <div class="container2">
       <header>Registrar Cliente</header>
       <div class="progress-bar">

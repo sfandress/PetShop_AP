@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body main section #nosotros{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     gap:100px;
+
 }
 body main section #nosotros h2, body main section #nosotros p {
     color: black;
+    
+}
+main{
+    background-color: rgb(230, 225, 197);
 }
