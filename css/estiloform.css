@@ -17,23 +17,23 @@ main{
   color: #fff;
   background: #d43f8d;
 }
-.container{
+.container2{
   width: 400px;
   background: #fff;
   text-align: center;
   border-radius: 5px;
   padding: 50px 35px 10px 35px;
 }
-.container header{
+.container2 header{
   font-size: 35px;
   font-weight: 600;
   margin: 0 0 30px 0;
 }
-.container .form-outer{
+.container2 .form-outer{
   width: 100%;
   overflow: hidden;
 }
-.container .form-outer form{
+.container2 .form-outer form{
   display: flex;
   width: 400%;
 }
@@ -100,17 +100,17 @@ form .page .btns button.prev{
 form .page .btns button.next{
   margin-left: 3px;
 }
-.container .progress-bar{
+.container2 .progress-bar{
   display: flex;
   margin: 40px 0;
   user-select: none;
 }
-.container .progress-bar .step{
+.container2 .progress-bar .step{
   text-align: center;
   width: 100%;
   position: relative;
 }
-.container .progress-bar .step p{
+.container2 .progress-bar .step p{
   font-weight: 500;
   font-size: 18px;
   color: #000;
