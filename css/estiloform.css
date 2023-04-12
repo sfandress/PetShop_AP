@@ -21,10 +21,11 @@ main{
 }
 .container2{
   width: 400px;
-  background: #fff;
+  background: #6e655b4a;
   text-align: center;
   border-radius: 5px;
   padding: 50px 35px 10px 35px;
+  
 }
 .container2 header{
   font-size: 35px;
@@ -67,6 +68,7 @@ form .page .field input{
   border-radius: 5px;
   padding-left: 15px;
   font-size: 18px;
+  background: rgba(230, 225, 197, 0.635);
 }
 form .page .field select{
   width: 100%;

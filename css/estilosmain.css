@@ -66,7 +66,7 @@ body main section{
     
 }
 
-body main section #nosotros h2, body main section #nosotros p, body main section #gatos h2, body main section #gatos p, body main section #perros h2, body main section #perros p, body main section #otros_animales h2, body main section #otros_animales p{
+body main section #nosotros h2, body main section #nosotros p, body main section #gatos h2, body main section #gatos p, body main section #perros h2, body main section #perros p, body main section #otros_animales h2, body main section #otros_animales p, body main section #text_personal1{
     color: black;
     text-align: justify;
     
@@ -100,4 +100,18 @@ body main section #gatos img, body main section #perros img, body main section #
 }
 main{
     background-color: rgb(230, 225, 197);
+}
+
+
+body main section  #text_personal2{
+    text-align: justify;
+    font-style: italic;
+    margin-left: 20px;
+    gap: 2px;
+}
+
+#img_sobrenosotros{
+    width: 400px;
+    padding:25px;
+    margin-bottom: 8%;
 }
