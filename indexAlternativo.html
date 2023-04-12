@@ -5,35 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/estilosmain.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/estilofooter.css">
-    <link rel="shortcut icon" href="img/huellitas.jpg">
+    <link rel="shortcut icon" href="img/huellitas.png">
     <script src="https://kit.fontawesome.com/22c71c95d2.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/sle.css">
 <link rel="stylesheet" href="css/carrousel.css">
 <link rel="stylesheet" href="css/estilosmain.css">
-<title>Nosotros</title>
+<link rel="stylesheet" href="css/headermenu.css">
+
+    <title>Huellitas PetShop</title>
 </head>
 <body>
+   
 	<header class="header_style">
-        <section>
-            <h1>Pet-Shop</h1>
-            <div class="conte">
-              <p></p>
-              <a href="index.html">Inicio</a>
-              <a href="#">Categorias</a>
-              <a href="registro.html">Crear Cuenta</a>
-              <a href="#">Ingresar</a>
-              <a href="nosotros.html">Sobre Nosotros</a>
-            </div>
-        </section>
-    
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Categorias</a>
+                    <ul class="submenu">
+                        <li><a href="perros.html">Perros</a></li>
+                        <li><a href="gatos.html">Gatos</a></li>
+                        <li><a href="otros_animales.html">Otros Animales</a></li>
+                    </ul>
+                </li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="#">Ingresar</a></li>
+                
+            </ul>
+        </nav>
+      
     </header>
 	
-	<main>
+<main>
     <div class="carrousel">
         <div class="conteCarrousel">
             <div class="itemCarrousel" id="itemCarrousel-1">
@@ -78,39 +86,70 @@
         </div>
         <div class="conteCarrouselController">
            
-        <a href="#itemCarrousel-1"><i class="fa-solid fa-dog"></i></a>
-            
-            <a href="#itemCarrousel-2">
-                <i class="fa-sharp fa-solid fa-cat"></i> </a>
-            
-            <a href="#itemCarrousel-3"><i class="fa-sharp fa-solid fa-fish-fins"></i></a>
-        </div>
+            <a href="#itemCarrousel-1"><i class="fa-solid fa-dog"></i></a>
+                
+                <a href="#itemCarrousel-2">
+                    <i class="fa-sharp fa-solid fa-cat"></i> </a>
+                
+                <a href="#itemCarrousel-3"><i class="fa-sharp fa-solid fa-fish-fins"></i></a>
+            </div>
     </div>
+
     <section>
-        <h1>Sobre Nosotros</h1>
-        <div id="nosotros">
-             <div>
-                <h2>Nuestra historia</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id est ducimus fugit reprehenderit quae ipsam sed nemo sequi possimus ex, consequuntur quod laudantium sapiente minima, qui voluptates. Dolore, quis et?</p>
+        <h1>Ofertas Destacadas</h1>
+       
+        <div class="main_index">
+            <div class="item_index">
+                <img src="img/oferta1.jpg" alt="nose">
+                <p>Pouch Homemade Delights River Salmon Gato Adulto - 100 Gr 4x3</p>
                 <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quam facilis eaque ea. Dolor, quae vel in optio at beatae provident ad praesentium non veritatis excepturi perspiciatis dolore quam! Nostrum.</p>
+                <div class="btn_buy">
+                    <button class="comprar">Comprar</button>
+                </div>
             </div>
-            <div>
-                <h2>Nuestros Objetivos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quod asperiores eaque quae nesciunt sapiente eos dicta sunt fugit quam, officia nostrum itaque quasi, repellat porro possimus quidem repellendus ea.</p>
+            <div class="item_index">
+                <img src="img/oferta2.jpg" alt="oferta2">
+                <p>Lata Sieger Urinary Para Gato Adulto - 340 Gr 3x2</p>
                 <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quam facilis eaque ea. Dolor, quae vel in optio at beatae provident ad praesentium non veritatis excepturi perspiciatis dolore quam! Nostrum.</p>
+                <div class="btn_buy">
+                    <button class="comprar">Comprar</button>
+                </div>
             </div>
-             <div>
-             <h2>Nuestro Personal</h2>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deleniti, molestiae beatae voluptates expedita, similique nulla vitae suscipit nemo voluptas illum? Voluptas voluptate veniam error! Tenetur nisi sit hic. Perferendis?</p>
-             <br>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quam facilis eaque ea. Dolor, quae vel in optio at beatae provident ad praesentium non veritatis excepturi perspiciatis dolore quam! Nostrum.</p>
+            <div class="item_index">
+                <img src="img/oferta3.jpg" alt="nose">
+                <p>Filtro Interno Atman Con Luz Led - 350 Lts/H con 30% OFF</p>
+                <br>
+                <div class="btn_buy">
+                    <button class="comprar">Comprar</button>
+                </div>
             </div>
-    </div>
+            <div class="item_index">
+                <img src="img/oferta4.jpg" alt="herbo">
+                <p>Alimento Hamster y Jerbo Puppis Super Premium Mix De Semillas - 750 G</p>
+                <br>
+                <div class="btn_buy">
+                    <button class="comprar">Comprar</button>
+                </div>
+            </div>
+            <div class="item_index">
+                <img src="img/oferta5.jpg" alt="tortuHouse">
+                <p>Turtle Island - Ideal para terrario tipo  M  con 25% OFF</p>
+                <br>
+                <div class="btn_buy">
+                    <button class="comprar">Comprar</button>
+                </div>
+            </div>
+            <div class="item_index">
+                <img src="img/oferta6.jpg" alt="cathouse">
+                <p>Cama Cocooning Gourd Pet House Zigzag - Talle Único</p>
+                <br>
+                <div class="btn_buy">
+                    <button class="comprar">Comprar</button>
+                </div>
+            </div>
+        </div>
     </section>
 	</main>
-	
 	
 	<footer class="pie">
         <div class="headerPie">
@@ -147,7 +186,7 @@
                 <h2>Categorias</h2>
                 <a href="perros.html">Perros</a>
                 <a href="gatos.html">Gatos</a>
-                <a href="otros_animales.html">Otras mascotas</a>
+                <a href="otros_animales.html">Otros Animales</a>
                 
             </div>
             <div>
@@ -184,10 +223,3 @@
 <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 <script src="js/validaciones.js" type="text/javascript"></script>
 </html>
-
-<!--
-    <ul class="naveg">
-    <li><a href="perros.html">Perros</a></li>
-    <li><a href="gatos.html"></a>Gatos</li>
-    <li><a href="otros_animales.html"></a>Otros Animales</li>
-</ul> -->
