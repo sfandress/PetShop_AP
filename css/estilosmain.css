@@ -4,16 +4,20 @@
     box-sizing: border-box;
     
 }
-body main section #nosotros{
+body main section #nosotros, body main section #gatos, body main section #perros, body main section #otros_animales{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    gap:100px;
+    gap:75px;
 
 }
-body main section #nosotros h2, body main section #nosotros p {
+body main section #nosotros h2, body main section #nosotros p, body main section #gatos h2, body main section #gatos p, body main section #perros h2, body main section #perros p, body main section #otros_animales h2, body main section #otros_animales p{
     color: black;
+    text-align: justify;
     
+}
+body main section #gatos img, body main section #perros img, body main section #otros_animales img{
+    width: 300px;
 }
 main{
     background-color: rgb(230, 225, 197);
