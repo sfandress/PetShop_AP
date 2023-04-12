@@ -4,18 +4,97 @@
     box-sizing: border-box;
     
 }
+
+.main_index{
+    width:1000px;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item_index{
+    background: rgb(237, 182, 44);
+    color:black;
+    width:calc((100% - 20px) / 3);
+    flex:none;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 0;
+}
+body main section .main_index img{
+    width: 300px;
+}
+
+body main section .main_index p{
+    color:black;
+    padding:1px;
+}
+.btn_buy{
+    width: 100vw;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.comprar{
+    background-color: #232323;
+    padding: 10px 20px;
+    color: white;
+    font-size:1.7rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left: 10px solid #f23106;
+    border-left: 10px double #f24506;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 body main section #nosotros, body main section #gatos, body main section #perros, body main section #otros_animales{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    gap:75px;
-
+    gap:75px;   
 }
+
+body main section{
+    text-align: center;
+    
+}
+
 body main section #nosotros h2, body main section #nosotros p, body main section #gatos h2, body main section #gatos p, body main section #perros h2, body main section #perros p, body main section #otros_animales h2, body main section #otros_animales p{
     color: black;
     text-align: justify;
     
 }
+
+body main section h1{
+    display:inline-block;
+    position: relative;
+    padding-bottom:100px;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(90, 90, 99), 0 0 0.2em rgb(62, 62, 69);
+        color: rgb(230, 225, 197);
+}
+body main section h1::after, body main section h1::before{
+    content:'';
+    position:absolute;
+    width:125px;
+    height:5px;
+    background-color:gray;
+
+    top:0.6em;
+}
+body main section h1::before{
+    left:-150px;
+}
+body main section h1::after{
+    right:-150px;
+}
+
 body main section #gatos img, body main section #perros img, body main section #otros_animales img{
     width: 300px;
 }
